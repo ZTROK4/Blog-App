@@ -1,0 +1,138 @@
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#FFFFFF"
+    android:padding="40px"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <ImageView
+        android:layout_width="75dp"
+        android:layout_height="110dp"
+        android:background="@drawable/gggg"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:text="Name"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your name"
+        android:id="@+id/name"
+        android:drawablePadding="15dp"
+        android:drawableLeft="@drawable/baseline_person_24"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:text="Date of birth"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your birth date"
+        android:id="@+id/date"
+        android:drawablePadding="15dp"
+        android:drawableLeft="@drawable/baseline_calendar_month_24"
+        android:inputType="date"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:text="E-mail"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your e-mail"
+        android:id="@+id/email"
+        android:drawablePadding="15dp"
+        android:drawableLeft="@drawable/baseline_email_24"
+        android:inputType="text"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:text="Phone"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your phone number"
+        android:id="@+id/phNo"
+        android:inputType="number"
+        android:drawablePadding="15dp"
+        android:drawableLeft="@drawable/baseline_phone_24"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:text="Username"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your username"
+        android:id="@+id/enterusername"
+        android:drawablePadding="15dp"
+        android:drawableLeft="@drawable/baseline_key_24"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Password"
+        android:textColor="#000000"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your password"
+        android:inputType="textPassword"
+        android:id="@+id/enterpass"
+        android:drawablePadding="15dp"
+        android:drawableLeft="@drawable/baseline_lock_open_24"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Confirm Password"
+        android:textColor="#000000"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Re-Enter your password"
+        android:inputType="textPassword"
+        android:drawablePadding="15dp"
+        android:drawableLeft="@drawable/baseline_lock_24"
+        android:id="@+id/enterpassConfirm"
+        />
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="signup"
+        android:textColor="#FFFFFF"
+        android:background="#1e272e"
+        android:id="@+id/signupbtn"
+        android:layout_margin="20px"
+        />
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Signin to continue"
+        android:textColor="#FFFFFF"
+        android:background="#1e272e"
+        android:layout_margin="20px"
+        android:id="@+id/tosignnbtn"
+        />
+
+    </LinearLayout>
