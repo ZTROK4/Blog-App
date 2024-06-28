@@ -22,19 +22,47 @@
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Enter title of the post"
-        android:id="@+id/searchtitle"
+        android:hint="Enter title of your post"
+        android:id="@+id/addtitle"
         android:drawableLeft="@drawable/baseline_title_24"
+        android:drawablePadding="15dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:text="Description"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter description of your post"
+        android:id="@+id/adddescrip"
+        android:drawableLeft="@drawable/baseline_description_24"
+        android:drawablePadding="15dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:text="Keywords"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter keywords of the post(Optional)"
+        android:id="@+id/addkeyw"
+        android:drawableLeft="@drawable/baseline_list_24"
         android:drawablePadding="15dp"
         />
 
     <androidx.appcompat.widget.AppCompatButton
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="search"
+        android:text="add to blog"
         android:textColor="#FFFFFF"
         android:background="#1e272e"
-        android:id="@+id/srchbtn"
+        android:id="@+id/btn_add"
         android:layout_margin="20px"
         />
     <androidx.appcompat.widget.AppCompatButton
@@ -47,7 +75,7 @@
         android:layout_marginBottom="20px"
         android:layout_marginRight="100px"
         android:layout_marginLeft="100px"
-        android:id="@+id/srchbacktomenubtn"
+        android:id="@+id/addbacktomenubtn"
         />
     <androidx.appcompat.widget.AppCompatButton
         android:layout_width="match_parent"
@@ -60,7 +88,7 @@
         android:layout_marginBottom="100px"
         android:layout_marginRight="100px"
         android:layout_marginLeft="100px"
-        android:id="@+id/logoutsrchbtn"
+        android:id="@+id/logoutaddbtn"
         />
 
 </LinearLayout>

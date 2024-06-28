@@ -13,6 +13,12 @@
         android:theme="@style/Theme.BlogApp"
         tools:targetApi="31">
         <activity
+            android:name=".AddPost"
+            android:exported="false" />
+        <activity
+            android:name=".DeletePost"
+            android:exported="false" />
+        <activity
             android:name=".SearchPost"
             android:exported="false" />
         <activity

@@ -1,5 +1,7 @@
 package com.example.blogapp;
 
+import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.view.View;
 
@@ -26,28 +28,36 @@ public class MenuPage extends AppCompatActivity {
         b1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
+                Intent i=new Intent(getApplicationContext(), AddPost.class);
+                startActivity(i);
             }
         });
 
         b2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
+                Intent i=new Intent(getApplicationContext(), SearchPost.class);
+                startActivity(i);
             }
         });
 
         b3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
+                Intent i=new Intent(getApplicationContext(), DeletePost.class);
+                startActivity(i);
             }
         });
 
         b4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
+                SharedPreferences preferences=getSharedPreferences("login",MODE_PRIVATE);
+                SharedPreferences.Editor editor= preferences.edit();
+                editor.clear();
+                editor.apply();
+                Intent i=new Intent(getApplicationContext(), MainActivity.class);
+                startActivity(i);
             }
         });
 

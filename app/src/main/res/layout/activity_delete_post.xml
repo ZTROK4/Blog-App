@@ -23,7 +23,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Enter title of the post"
-        android:id="@+id/searchtitle"
+        android:id="@+id/dlttitle"
         android:drawableLeft="@drawable/baseline_title_24"
         android:drawablePadding="15dp"
         />
@@ -31,10 +31,10 @@
     <androidx.appcompat.widget.AppCompatButton
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="search"
+        android:text="delete"
         android:textColor="#FFFFFF"
         android:background="#1e272e"
-        android:id="@+id/srchbtn"
+        android:id="@+id/dltbtn"
         android:layout_margin="20px"
         />
     <androidx.appcompat.widget.AppCompatButton
@@ -47,7 +47,7 @@
         android:layout_marginBottom="20px"
         android:layout_marginRight="100px"
         android:layout_marginLeft="100px"
-        android:id="@+id/srchbacktomenubtn"
+        android:id="@+id/dltbacktomenubtn"
         />
     <androidx.appcompat.widget.AppCompatButton
         android:layout_width="match_parent"
@@ -60,7 +60,7 @@
         android:layout_marginBottom="100px"
         android:layout_marginRight="100px"
         android:layout_marginLeft="100px"
-        android:id="@+id/logoutsrchbtn"
+        android:id="@+id/logoutdltbtn"
         />
 
 </LinearLayout>
